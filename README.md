@@ -12,6 +12,7 @@ Eye diagrams for a DCS that uses polar NRZ, polar RZ, ideal Nyquist pulse and ra
 
 #### How to use
 The function allows the user to enter the following as inputs:
+
 • Pulse shape type (NRZ, RZ, Ideal Nyquist Pulse, Raised-Cosine Pule)
 • Number of PAM levels (Binary, 4-level)
 • Duration of Eye Diagram (Ts, 2Ts)
@@ -21,12 +22,17 @@ Eye diagrams for each DCS in Part 1, assuming that the system is subject to AWGN
 
 #### How to use
 The function allows the user to enter the following as inputs:
+
 • The value of N
 #### Test Cases: 
 Eye diagrams for the cases in the following table are generated in the code:
+
 Case 1 Case 2 Case 3 Case 4
+
 Pulse Shape NRZ Raised-Cosine NRZ Raised-Cosine
+
 PAM Level Binary Binary Binary Binary
+
 SNR Level 0 dB 0 dB 10 dB 10
 
 ### 3.Error Rate Calculation
