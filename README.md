@@ -1,6 +1,7 @@
 # -EYE-DIAGRAM--PAM
 
 This project is Matlab Simulator that generates the eye diagrams of binary and 4-level PAM signaling, employing various pulse shapes.
+
 The objective of the project is to use the eye diagram to test the vulnerability of various signaling schemes to ISI and AWGN.
 
 This code is fully developed by Ahmed Wael, Mohamed Yossef, Abdullah Shawky for the communication system class in spring 2018.
@@ -14,7 +15,9 @@ Eye diagrams for a DCS that uses polar NRZ, polar RZ, ideal Nyquist pulse and ra
 The function allows the user to enter the following as inputs:
 
 • Pulse shape type (NRZ, RZ, Ideal Nyquist Pulse, Raised-Cosine Pule)
+
 • Number of PAM levels (Binary, 4-level)
+
 • Duration of Eye Diagram (Ts, 2Ts)
 
 ### 2. Noisy Systems
